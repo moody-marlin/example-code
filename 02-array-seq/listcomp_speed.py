@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+# need print to be a function so I can call '*' (splat) 
+# on a list to unpack it as arguments to print()
+from __future__ import print_function
 import timeit
 
 TIMES = 10000
